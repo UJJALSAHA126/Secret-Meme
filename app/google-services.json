@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103837764970",
+    "project_id": "secret-meme",
+    "storage_bucket": "secret-meme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103837764970:android:91abbe9f8148a31fbc6913",
+        "android_client_info": {
+          "package_name": "com.example.secretmeme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103837764970-k5e4r49uguu7u7806c96k4jipg4ua3jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNOvSw19-tfrNMunyQTEZ3NWhqjAHKoKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103837764970-k5e4r49uguu7u7806c96k4jipg4ua3jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

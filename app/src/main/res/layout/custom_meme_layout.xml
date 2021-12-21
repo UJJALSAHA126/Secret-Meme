@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/meme_layout"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:layout_margin="7dp"
+    android:background="@drawable/meme_layout_background"
+    android:padding="1dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/memeImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/meme_downloadButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Download The Meme"
+        android:src="@drawable/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/meme_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Goru" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
